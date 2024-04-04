@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  /* background-color: whitesmoke; */
+}
+
+.main-image {
+  background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-medical-research-medical-diagnosis-picture-image_1074207.jpg);
+  background-size: cover;
+  /* background-position: center top; */
+  position: absolute;
+  top: 0px;
+  width: 65%;
+  height: 50%;
+  /* left: auto; */
+  right: 0;
+  /* z-index: -1; */
+}
+.secondary-image {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190220/ourmid/pngtree-technology-technology-health-doctors-image_10060.jpg);
+  background-size: cover;
+  /* background-position: center top; */
+  position: absolute;
+  top: 345px;
+  width: 65%;
+  height: 50%;
+  /* left: auto; */
+  right: 0;
+  /* z-index: -1; */
+}
+
+.mytext1 {
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  left: 60px;
+  top: 100px;
+}
+
+.mytext2 {
+  /* font-size: large;
+  font-weight: bold; */
+  position: relative;
+  left: 5px;
+  top: 150px;
+  font-size: 38px;
+  font-weight: 8px;
+}
+
+.mytext3 {
+  /* font-size: 1rem; */
+  /* color: #333; */
+  position: absolute;
+  left: 80px;
+  top: 210px;
+}
+.texts {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  margin: 45px;
+}
+
+.inputs {
+  color: black(82, 77, 77);
+  width: 25.5%;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  font-size: 20px;
+  left: 50px;
+  border: none;
+  border-bottom: 2px solid darkslategray;
+}
+
+.inputs:hover {
+  border-color: dimgray;
+}
+
+.inputs:focus {
+  outline: none;
+}
+
+.message {
+  color: black(82, 77, 77);
+  background-color: white;
+  width: 20%;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  left: 50px;
+  top: 320px;
+  font-family: "Poppins", sans-serif;
+  pointer-events: none;
+}
+
+.message:focus {
+  outline: none;
+  border: none;
+}
+
+.block1 {
+  border: none;
+  /* outline: 0; */
+  background-color: black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 27px 4px -23px -8px;
+  padding: 15px 96px;
+  font-size: 18px;
+  position: relative;
+  left: 60px;
+  top: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.block1:hover {
+  background-color: dimgray;
+  color: white;
+}
+
+.block2 {
+  border: solid 1px #000;
+  outline: 0;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 4px 32px 0px;
+  padding: 15px 91px;
+  font-size: 18px;
+  position: relative;
+  left: 60px;
+  top: 65px;
+  font-family: "Poppins", sans-serif;
+}
+
+.block2:hover {
+  background-color: white;
+  color: dimgray;
+}
+
+.base {
+  position: relative;
+  padding-top: 50px;
+  margin-left: 470px;
+  top: 200px;
+  background-color: black;
+}
+
+.end-list {
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+
+/* @media screen and (max-width: 1300px) {
+  .form-container {
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+  }
+} */
